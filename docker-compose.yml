@@ -1,0 +1,34 @@
+version: "3.9"
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "3500:3500"
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/mi_db
+    depends_on:
+      - mongo
+    volumes:
+      - ./respaldo:/app/respaldo  # si tu backend usa los respaldos
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"   # o 80:80 si usaste nginx
+
+  pdf:
+    build: ./pdf-service
+    ports:
+      - "5001:5001"
+
+  mongo:
+    image: mongo:6
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./respaldo:/docker-entrypoint-initdb.d  # carga dumps si los hay
+
+volumes:
+  mongo_data:

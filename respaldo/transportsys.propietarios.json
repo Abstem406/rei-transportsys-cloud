@@ -1,0 +1,339 @@
+[{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf766f"
+  },
+  "name": "Christine Hayes",
+  "cedula": "G-25419220",
+  "phone": "585.405.0374",
+  "address": "91770 Hill Road Apt. 475",
+  "email": "arvel_brakus@yahoo.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7670"
+  },
+  "name": "Stella Dicki",
+  "cedula": "G-24107382",
+  "phone": "1-793-565-1501 x41321",
+  "address": "177 Jefferson Street Suite 352",
+  "email": "ramona_weissnat@yahoo.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7671"
+  },
+  "name": "Wm Huels PhD",
+  "cedula": "G-00798100",
+  "phone": "1-923-825-1507 x98400",
+  "address": "119 Oda Fall Apt. 692",
+  "email": "dora_goodwin@hotmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7672"
+  },
+  "name": "Sharon Considine",
+  "cedula": "E-22179839",
+  "phone": "496-734-9704 x61804",
+  "address": "7434 Old State Road Apt. 773",
+  "email": "holly78@yahoo.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7673"
+  },
+  "name": "Garrett Willms",
+  "cedula": "V-32074231",
+  "phone": "(897) 848-7706",
+  "address": "5700 Railway Street Apt. 622",
+  "email": "guy26@yahoo.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7674"
+  },
+  "name": "Sammy Roob",
+  "cedula": "E-36884221",
+  "phone": "782-896-0861 x94835",
+  "address": "7508 Madge Mews Suite 229",
+  "email": "arianna_homenick@gmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7675"
+  },
+  "name": "Stewart Fisher",
+  "cedula": "G-05926943",
+  "phone": "988.352.8886 x33443",
+  "address": "800 Botsford Drive Apt. 375",
+  "email": "easter_borer92@hotmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7676"
+  },
+  "name": "Delia Ratke III",
+  "cedula": "V-17708279",
+  "phone": "370.872.4965 x9912",
+  "address": "561 Daisha Way Suite 544",
+  "email": "marlon.feest@gmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7677"
+  },
+  "name": "Daryl Bauch DVM",
+  "cedula": "J-26705572",
+  "phone": "1-732-703-2910 x1548",
+  "address": "508 E North Street Apt. 237",
+  "email": "lillie_carroll@gmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7678"
+  },
+  "name": "Kent Funk",
+  "cedula": "G-32640897",
+  "phone": "467.730.0717 x5242",
+  "address": "72943 Joe Course Apt. 996",
+  "email": "stephany94@yahoo.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7679"
+  },
+  "name": "June Batz",
+  "cedula": "V-06252923",
+  "phone": "1-214-592-5159 x37202",
+  "address": "5410 Jenkins Crest Apt. 486",
+  "email": "gerard_koelpin@yahoo.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf767a"
+  },
+  "name": "Ismael Hauck",
+  "cedula": "E-61776000",
+  "phone": "497-813-9131 x0836",
+  "address": "63942 Nona Curve Suite 856",
+  "email": "dan.metz@gmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf767b"
+  },
+  "name": "Brandy Nicolas",
+  "cedula": "G-01703715",
+  "phone": "631.844.4837 x7676",
+  "address": "49711 Hodkiewicz Glens Apt. 245",
+  "email": "lucious79@yahoo.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf767c"
+  },
+  "name": "Ebony Waters",
+  "cedula": "J-06691573",
+  "phone": "203-844-1257 x976",
+  "address": "320 A Street Suite 788",
+  "email": "alexie46@gmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf767d"
+  },
+  "name": "Mr. Devin Sanford",
+  "cedula": "G-15039407",
+  "phone": "541.487.0105 x1109",
+  "address": "39623 Daniel Brooks Apt. 562",
+  "email": "simeon85@gmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf767e"
+  },
+  "name": "Marion Gottlieb",
+  "cedula": "V-00184015",
+  "phone": "(781) 560-2836 x0901",
+  "address": "7586 Powlowski Turnpike Suite 414",
+  "email": "coy_huel@gmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf767f"
+  },
+  "name": "Lamar Blick",
+  "cedula": "V-73207783",
+  "phone": "981.829.7550 x8568",
+  "address": "137 Kody Meadows Suite 682",
+  "email": "santino.prohaska@gmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7680"
+  },
+  "name": "Willard Pollich",
+  "cedula": "G-67621833",
+  "phone": "534.553.0709 x9214",
+  "address": "4745 Batz Row Suite 404",
+  "email": "guillermo_wehner80@gmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68483f7e2c172d95bdaf7681"
+  },
+  "name": "Leslie Ernser",
+  "cedula": "J-28272068",
+  "phone": "1-398-495-1803 x772",
+  "address": "99557 Earnest Mills Suite 169",
+  "email": "candelario.howell@gmail.com",
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T14:21:50.901Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6848553f9e876ce8b5754cbe"
+  },
+  "name": "JEREMI ALEJANDRO RODRIGUEZ RODRIGUEZ",
+  "cedula": "V-31890805",
+  "phone": "04247044565",
+  "address": "LOMAS BLANCAS TACHIRA",
+  "createdAt": {
+    "$date": "2025-06-10T15:54:39.225Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T15:54:39.225Z"
+  },
+  "__v": 0
+}]

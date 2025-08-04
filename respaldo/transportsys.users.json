@@ -1,0 +1,182 @@
+[{
+  "_id": {
+    "$oid": "68458b4664741ee2572664a8"
+  },
+  "name": "Robin Halvorson",
+  "email": "robin.halvorson@hotmail.com",
+  "password": "password123",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2025-04-04T07:48:25.410Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68458b4664741ee2572664a9"
+  },
+  "name": "Julian Douglas",
+  "email": "julian_douglas@gmail.com",
+  "password": "password123",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-11-04T13:02:35.317Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68458b4664741ee2572664aa"
+  },
+  "name": "Aniyah Ullrich",
+  "email": "aniyah_ullrich19@gmail.com",
+  "password": "password123",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-11-30T11:25:35.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68458b4664741ee2572664ab"
+  },
+  "name": "Mina Jacobson",
+  "email": "mina.jacobson@gmail.com",
+  "password": "password123",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-03-05T10:32:49.692Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68458b4664741ee2572664ac"
+  },
+  "name": "Dustin Brekke",
+  "email": "dustin.brekke@yahoo.com",
+  "password": "password123",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-06-24T01:48:51.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68458b4664741ee2572664ad"
+  },
+  "name": "Aileen Rau",
+  "email": "aileen_rau@gmail.com",
+  "password": "password123",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-02-15T02:58:43.409Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68458b4664741ee2572664ae"
+  },
+  "name": "Virgie Cruickshank",
+  "email": "virgie_cruickshank@hotmail.com",
+  "password": "password123",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-03-20T16:09:00.436Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68458b4664741ee2572664af"
+  },
+  "name": "Madie Mertz",
+  "email": "madie.mertz71@yahoo.com",
+  "password": "password123",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-05-11T05:18:43.484Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68458b4664741ee2572664b0"
+  },
+  "name": "Ariel Hahn",
+  "email": "ariel.hahn@gmail.com",
+  "password": "password123",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-09-08T13:37:49.675Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68458b4664741ee2572664b1"
+  },
+  "name": "Oleta Bosco",
+  "email": "oleta_bosco4@gmail.com",
+  "password": "password123",
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-12-29T06:36:38.271Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68458c9b30e43c3e35065a79"
+  },
+  "name": "rei",
+  "email": "rei@gmail.com",
+  "password": "470fcb3c577ae20074ff093ad8d4c9b366bf4044faf2c3202e096af9968b5d55",
+  "role": "operator",
+  "createdAt": {
+    "$date": "2025-06-08T13:14:03.494Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68458dfd7ec86ec20280121e"
+  },
+  "name": "reina",
+  "email": "reina@gmail.com",
+  "password": "470fcb3c577ae20074ff093ad8d4c9b366bf4044faf2c3202e096af9968b5d55",
+  "role": "operator",
+  "createdAt": {
+    "$date": "2025-06-08T13:19:57.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6845f3fd421fecfb8e87e12e"
+  },
+  "name": "elena",
+  "email": "elena@gmail.com",
+  "password": "470fcb3c577ae20074ff093ad8d4c9b366bf4044faf2c3202e096af9968b5d55",
+  "role": "user",
+  "createdAt": {
+    "$date": "2025-06-08T20:35:09.161Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "684b347e7dd75c0d77192e9a"
+  },
+  "name": "roci",
+  "email": "roci@gmail.com",
+  "password": "470fcb3c577ae20074ff093ad8d4c9b366bf4044faf2c3202e096af9968b5d55",
+  "role": "admin",
+  "createdAt": {
+    "$date": "2025-06-12T20:11:42.938Z"
+  },
+  "__v": 0
+}]

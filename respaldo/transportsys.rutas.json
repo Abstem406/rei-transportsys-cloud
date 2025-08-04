@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6855829726fdc13dc97c918a"
+  },
+  "code": "201018265",
+  "startLocation": "grita",
+  "endLocation": "maracay",
+  "chuto": {
+    "$oid": "6848616290314526702022d4"
+  },
+  "trailer": {
+    "$oid": "6848614d90314526702022c7"
+  },
+  "conductor": {
+    "$oid": "6854327b5a896bd483bb8ac2"
+  },
+  "auxiliar": {
+    "$oid": "6845927d15b84402124b270d"
+  },
+  "concept": "tela",
+  "startDate": {
+    "$date": "2025-06-20T15:47:35.832Z"
+  },
+  "createdAt": {
+    "$date": "2025-06-20T15:47:35.863Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-20T15:47:35.863Z"
+  },
+  "__v": 0
+}]

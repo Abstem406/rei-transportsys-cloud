@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "6855d0a369d31d18f51ce5ea"
+  },
+  "invoiceNumber": "INV-20250620-0001",
+  "ruta": {
+    "$oid": "6855829726fdc13dc97c918a"
+  },
+  "clientName": "31890805",
+  "clientIdentification": "31890805",
+  "clientAddress": "San Cristobal Centro",
+  "clientPhone": "04247044565",
+  "clientEmail": "alendroos2019@gmail.com",
+  "items": [
+    {
+      "description": "tela",
+      "quantity": 100,
+      "unitPrice": 2,
+      "total": 200,
+      "_id": {
+        "$oid": "6855d0a369d31d18f51ce5eb"
+      }
+    }
+  ],
+  "subtotal": 200,
+  "tax": 21,
+  "totalAmount": 221,
+  "paymentStatus": "Pendiente",
+  "notes": "",
+  "createdBy": {
+    "$oid": "68458c9b30e43c3e35065a79"
+  },
+  "invoiceDate": {
+    "$date": "2025-06-20T21:20:35.206Z"
+  },
+  "createdAt": {
+    "$date": "2025-06-20T21:20:35.221Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-20T21:20:35.221Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "685604937a66d69722ae36dc"
+  },
+  "invoiceNumber": "INV-20250620-0002",
+  "ruta": {
+    "$oid": "6855829726fdc13dc97c918a"
+  },
+  "clientName": "edier",
+  "clientIdentification": "13037587",
+  "clientAddress": "130375879",
+  "clientPhone": "04247111255",
+  "clientEmail": "edier@gmail.com",
+  "items": [
+    {
+      "description": "tela",
+      "quantity": 10,
+      "unitPrice": 3,
+      "total": 30,
+      "_id": {
+        "$oid": "685604937a66d69722ae36dd"
+      }
+    },
+    {
+      "description": "queso",
+      "quantity": 15,
+      "unitPrice": 2,
+      "total": 30,
+      "_id": {
+        "$oid": "685604937a66d69722ae36de"
+      }
+    },
+    {
+      "description": "jamon",
+      "quantity": 12,
+      "unitPrice": 5,
+      "total": 60,
+      "_id": {
+        "$oid": "685604937a66d69722ae36df"
+      }
+    }
+  ],
+  "subtotal": 120,
+  "tax": 21,
+  "totalAmount": 141,
+  "paymentStatus": "Pendiente",
+  "notes": "pago junio",
+  "createdBy": {
+    "$oid": "68458c9b30e43c3e35065a79"
+  },
+  "invoiceDate": {
+    "$date": "2025-06-21T01:02:11.152Z"
+  },
+  "createdAt": {
+    "$date": "2025-06-21T01:02:11.167Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-21T01:02:11.167Z"
+  },
+  "__v": 0
+}]

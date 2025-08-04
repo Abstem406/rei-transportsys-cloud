@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6848614d90314526702022c7"
+  },
+  "type": "trailer",
+  "name": "MERCEDEZ",
+  "model": "BUFALLO",
+  "plate": "ABF1432",
+  "code": "ABC345",
+  "propietario": {
+    "$oid": "6848553f9e876ce8b5754cbe"
+  },
+  "createdAt": {
+    "$date": "2025-06-10T16:46:05.451Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T16:46:05.451Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6848616290314526702022d4"
+  },
+  "type": "chuto",
+  "name": "MERCEDEZ",
+  "model": "BUFALLO",
+  "plate": "ABF1431",
+  "code": "ABC344",
+  "propietario": {
+    "$oid": "6848553f9e876ce8b5754cbe"
+  },
+  "createdAt": {
+    "$date": "2025-06-10T16:46:26.726Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T16:46:26.726Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6851befdc649f5509e3e43d5"
+  },
+  "type": "trailer",
+  "name": "MERCEDEZ",
+  "model": "BUFALLOz",
+  "plate": "ABF1435",
+  "code": "ABC3489",
+  "propietario": {
+    "$oid": "6848553f9e876ce8b5754cbe"
+  },
+  "createdAt": {
+    "$date": "2025-06-17T19:16:13.767Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-17T19:16:37.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6851bf2bc649f5509e3e43e3"
+  },
+  "type": "chuto",
+  "name": "",
+  "model": "",
+  "plate": "ABF123",
+  "code": "ABC123",
+  "propietario": {
+    "$oid": "68483f7e2c172d95bdaf7670"
+  },
+  "createdAt": {
+    "$date": "2025-06-17T19:16:59.795Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-17T19:16:59.795Z"
+  },
+  "__v": 0
+}]
