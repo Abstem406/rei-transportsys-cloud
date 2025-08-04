@@ -14,12 +14,12 @@ services:
   frontend:
     build: ./frontend
     ports:
-      - "5173:5173"   # o 80:80 si usaste nginx
+      - "3000:3000"
 
   pdf:
     build: ./pdf-service
     ports:
-      - "5001:5001"
+      - "5002:5001"
 
   mongo:
     image: mongo:6
