@@ -3,7 +3,7 @@ services:
   backend:
     build: ./backend
     ports:
-      - "3500:3500"
+      - "3501:3500"
     environment:
       - MONGO_URL=mongodb://mongo:27017/mi_db
     depends_on:
