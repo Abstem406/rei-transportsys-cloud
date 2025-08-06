@@ -11,5 +11,13 @@ export default defineConfig({
             'bitforges.com',            // ← Dominio principal (opcional)
             'api-pioneros.bitforges.com'
           ],
+          proxy: {
+            '/api': {
+                target: 'https://api-pioneros.bitforges.com', // El API externo
+                changeOrigin: true, // Esconde la请求的真实源头
+                rewrite: (path) => path.replace(/^\/api/, ''), // Reemplaza /api por /
+            },
+        },
     }
+    
 });
