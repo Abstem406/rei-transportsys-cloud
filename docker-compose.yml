@@ -4,10 +4,9 @@ services:
     ports:
       - "3501:3500"
     environment:
-      - MONGO_URL=mongodb://mongo:27017/mi_db
+      - MONGO_URL=mongodb://mongo:27017/transportsys
     depends_on:
       - mongo
-
 
   frontend:
     build: ./frontend
@@ -25,10 +24,10 @@ services:
     ports:
       - "27018:27017"
     environment:
-      - MONGO_INITDB_DATABASE=mi_db
+      - MONGO_INITDB_DATABASE=transportsys
     volumes:
       - mongo_data:/data/db
-      - ./dump:/docker-entrypoint-initdb.d/dump              # dump BSON
+      - ./dump:/docker-entrypoint-initdb.d/dump # dump BSON
       - ./mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh
     command: >
       bash -c "
