@@ -8,7 +8,8 @@ export default defineConfig({
         port: 5173,  // Asegúrate de que coincida con el puerto de tu aplicación
         allowedHosts: [
             'pioneros.bitforges.com', // ← Subdominio que quieres permitir
-            'bitforges.com'            // ← Dominio principal (opcional)
-        ],
+            'bitforges.com',            // ← Dominio principal (opcional)
+            'api-pioneros.bitforges.com'
+          ],
     }
 });
