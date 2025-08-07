@@ -27,7 +27,7 @@ services:
       - MONGO_INITDB_DATABASE=transportsys
     volumes:
       - mongo_data:/data/db
-      - ./dump:/docker-entrypoint-initdb.d/dump # dump BSON
+      - ./dump:/docker-entrypoint-initdb.d/dump/transportsys # dump BSON
       - ./mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh
     command: >
       bash -c "
