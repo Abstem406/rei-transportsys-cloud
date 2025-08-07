@@ -28,13 +28,13 @@ services:
     volumes:
       - mongo_data:/data/db
       - ./dump:/docker-entrypoint-initdb.d/dump
-      - ./mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh
     command: >
       bash -c "
-        /docker-entrypoint-initdb.d/mongo-init.sh;
-        docker-entrypoint.sh mongod --logpath /dev/stdout
+        echo '>>> Restaurando base de datos...';
+        mongorestore --db transportsys --drop /docker-entrypoint-initdb.d/dump;
+        echo '>>> Restauración completada!';
+        docker-entrypoint.sh mongod
       "
 
-    
 volumes:
   mongo_data:
