@@ -1,12 +1,9 @@
 #!/bin/bash
-# mongo-init.sh
-set -e
+echo ">>> Waiting for MongoDB to start..."
+until mongosh --eval "print(\"waited for connection\")" 2>/dev/null; do
+    sleep 1
+done
 
-echo "🔍 Buscando dump en /docker-entrypoint-initdb.d/dump"
-if [ -d "/docker-entrypoint-initdb.d/dump" ]; then
-  echo "🚀 Restaurando base de datos 'transportsys'..."
-  mongorestore --drop --db transportsys /docker-entrypoint-initdb.d/dump
-  echo "✅ Restauración terminada"
-else
-  echo "⚠️  No se encontró el dump; se omite la restauración"
-fi
+echo ">>> Restoring database..."
+mongorestore --db transportsys /docker-entrypoint-initdb.d/dump
+echo ">>> Restore complete!"
