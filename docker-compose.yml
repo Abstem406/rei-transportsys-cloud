@@ -29,29 +29,11 @@ services:
       - mongo_data:/data/db
       - ./dump:/docker-entrypoint-initdb.d/dump
       - ./mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh
-    command: 
-      - /bin/bash
-      - -c
-      - |
-        # Iniciar MongoDB en modo background
-        docker-entrypoint.sh mongod --fork --logpath /proc/1/fd/1
-        
-        # Esperar conexión
-        until mongosh --eval "print('MongoDB listo!')" 2>/dev/null; do
-          echo 'Esperando a MongoDB...'
-          sleep 1
-        done
-        
-        # Ejecutar script de restauración
-        chmod +x /docker-entrypoint-initdb.d/mongo-init.sh
-        /docker-entrypoint-initdb.d/mongo-init.sh
-        
-        # Detener instancia background
-        mongod --shutdown
-        
-        # Iniciar MongoDB en primer plano (mantiene contenedor activo)
-        echo 'Iniciando MongoDB en primer plano...'
-        exec docker-entrypoint.sh mongod
+    command: >
+      bash -c "
+        /docker-entrypoint-initdb.d/mongo-init.sh;
+        docker-entrypoint.sh mongod --logpath /dev/stdout
+      "
 
     
 volumes:
