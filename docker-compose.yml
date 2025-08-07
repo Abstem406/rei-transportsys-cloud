@@ -18,24 +18,27 @@ services:
     ports:
       - "5002:5001"
 
-  mongo:
-    image: mongo:6
-    restart: always
-    ports:
-      - "27018:27017"
-    environment:
-      - MONGO_INITDB_DATABASE=transportsys
-    volumes:
-      - mongo_data:/data/db
-      - ./dump:/docker-entrypoint-initdb.d/dump
-      - ./mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh
-    command: >
-      bash -c "
-        docker-entrypoint.sh mongod --logpath /var/log/mongod.log &&
-        /docker-entrypoint-initdb.d/mongo-init.sh &&
-        docker-entrypoint.sh mongod --shutdown &&
-        docker-entrypoint.sh mongod
-      "
+mongo:
+  image: mongo:6
+  restart: always
+  ports:
+    - "27018:27017"
+  environment:
+    - MONGO_INITDB_DATABASE=transportsys
+  volumes:
+    - mongo_data:/data/db
+    - ./dump:/docker-entrypoint-initdb.d/dump
+    - ./mongo-init.sh:/docker-entrypoint-initdb.d/mongo-init.sh
+  command: >
+    bash -c "
+      docker-entrypoint.sh mongod &
+      until mongosh --eval \"print('MongoDB listo!')\" 2>/dev/null; do sleep 1; done
+      chmod +x /docker-entrypoint-initdb.d/mongo-init.sh
+      /docker-entrypoint-initdb.d/mongo-init.sh
+      # Mantener el contenedor en ejecución
+      tail -f /dev/null
+    "
+
 
 volumes:
   mongo_data:
