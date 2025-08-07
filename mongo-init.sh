@@ -2,8 +2,8 @@
 # mongo-init.sh
 set -e
 
-echo "🔍 Buscando dump en /docker-entrypoint-initdb.d/dump"
-if [ -d "/docker-entrypoint-initdb.d/dump" ]; then
+echo "🔍 Buscando dump en /docker-entrypoint-initdb.d/dump/transportsys"
+if [ -d "/docker-entrypoint-initdb.d/dump/transportsys" ]; then
   echo "🚀 Restaurando base de datos 'transportsys'..."
   mongorestore --drop --db transportsys /docker-entrypoint-initdb.d/dump/transportsys
   echo "✅ Restauración terminada"
