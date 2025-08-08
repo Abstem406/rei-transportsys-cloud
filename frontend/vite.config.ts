@@ -13,9 +13,9 @@ export default defineConfig({
           ],
           proxy: {
             '/api': {
-                target: 'https://api-pioneros.bitforges.com', // El API externo
+                target: 'https://api-pioneros.bitforges.com',
                 changeOrigin: true, 
-                rewrite: (path) => path.replace(/^\/api/, ''), // Reemplaza /api por /
+                rewrite: (path) => path.replace(/^\/api/, ''),
             },
         },
     }
